@@ -6,7 +6,7 @@ body {
   font-size: 20px;
   display: flex;
   border-bottom: 1px solid #000;
-  padding: 10px 20px 10px;
+  padding: 10px 20px;
   align-items: center;
 }
 .logo {
@@ -24,7 +24,10 @@ ul {
   margin: 0;
 }
 ul > li {
-  margin-right: 30px;
+  margin-right: 30px
+}
+ul > li:last-child {
+  margin-right: 0;
 }
 .box {
   display: flex;
@@ -56,4 +59,10 @@ section {
   background-color: lavender;
   padding: 5px 20px;
   margin-bottom: 20px;
+}
+.link {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 8px 15px;
+  margin-left: 10px;
 }
